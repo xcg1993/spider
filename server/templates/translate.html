@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea rows="5" cols="20" name="keyword" onblur="query(this.value)"></textarea>
+
+<script>
+    function query(txt){
+        console.log(txt);
+        reg=/[\u4e00-\u9fa5]+/
+        if (reg.test(txt)){
+            alert('中文');
+        }else{
+            alert('英文')
+        }
+    }
+</script>
+
+</body>
+</html>

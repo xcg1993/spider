@@ -1,0 +1,14 @@
+<proxy-ips>
+    <proxy-ip>
+        <schama>HTTP</schama>
+        <ip port="80">10.12.16.177</ip>
+    </proxy-ip>
+        <proxy-ip>
+        <schama>HTTPS</schama>
+        <ip port="545">10.12.16.178</ip>
+    </proxy-ip>
+        <proxy-ip>
+        <schama>HTTPS</schama>
+        <ip port="4532">10.12.16.179</ip>
+    </proxy-ip>
+</proxy-ips>

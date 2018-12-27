@@ -1,0 +1,4 @@
+[2018-12-27 15:19:27 ][ERROR]: --disen hi,error--
+[2018-12-27 15:19:27 ][CRITICAL]: --disen hi,critical--
+<1000001 >[ 2018-12-27 17:38:21 ]-WARNING: hi,warn
+<1000001 >[ 2018-12-27 17:38:21 ]-ERROR: hi,error
